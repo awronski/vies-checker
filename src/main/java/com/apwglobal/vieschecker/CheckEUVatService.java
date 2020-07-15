@@ -12,7 +12,7 @@ import java.util.Date;
 
 public class CheckEUVatService {
 
-    private static final String WSDL = "http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl";
+    private static final String WSDL = "https://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl";
 
     public static final String[] ERRORS = {
                 "SERVICE_UNAVAILABLE",

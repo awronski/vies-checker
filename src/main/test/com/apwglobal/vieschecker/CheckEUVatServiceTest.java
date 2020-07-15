@@ -10,10 +10,10 @@ public class CheckEUVatServiceTest {
     @Test
     public void testCheck() throws CheckEUVatException {
         CheckEUVatService service = new CheckEUVatService();
-        CheckEUVatResponse response = service.check("LU 26375245");
+        CheckEUVatResponse response = service.check("HU23359783");
 
         assertTrue(response.isValid());
-        assertEquals(response.getName(), "AMAZON EUROPE CORE S.A R.L.");
+        assertEquals(response.getName(), "BELLA-IDEA KORLÁTOLT FELELŐSSÉGŰ TÁRSASÁG");
     }
 
 }

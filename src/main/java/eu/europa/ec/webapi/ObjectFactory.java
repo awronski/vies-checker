@@ -69,8 +69,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "urn:ec.europa.eu:taxud:vies:services:checkVat:types", name = "name", scope = CheckVatResponse.class)
     public JAXBElement<String> createCheckVatResponseName(String value) {
@@ -78,8 +82,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "urn:ec.europa.eu:taxud:vies:services:checkVat:types", name = "address", scope = CheckVatResponse.class)
     public JAXBElement<String> createCheckVatResponseAddress(String value) {
@@ -87,8 +95,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "urn:ec.europa.eu:taxud:vies:services:checkVat:types", name = "traderName", scope = CheckVatApproxResponse.class)
     public JAXBElement<String> createCheckVatApproxResponseTraderName(String value) {
@@ -96,8 +108,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "urn:ec.europa.eu:taxud:vies:services:checkVat:types", name = "traderCompanyType", scope = CheckVatApproxResponse.class)
     public JAXBElement<String> createCheckVatApproxResponseTraderCompanyType(String value) {
